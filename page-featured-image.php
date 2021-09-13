@@ -26,8 +26,8 @@ if( !empty($img)){
 	</div>
 </header><!-- .entry-header -->
 <div class="container">
-	<div class="row">
-		<main id="primary" class="site-main <?php echo is_active_sidebar( 'sidebar-1' ) ? 'eight':'ten'?> columns" style="margin-top: 16px">
+	<div class="row gx-5">
+		<main id="primary" class="site-main col" style="margin-top: 16px">
 		
 			<?php
 			while ( have_posts() ) :
